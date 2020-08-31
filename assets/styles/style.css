@@ -8,10 +8,17 @@
 }
 
 .page-div {
-    width: 850;
+    top: 100px;
+    width: 850px;
     height: auto;
     background-color: slateblue;
 }
+
+.hdr-outer.div {
+    background-color: white;
+    padding: 5px 0px 100px 0 px;
+}
+
 .page-header {
     font-family: Sriracha;
     background-color:slateblue;
@@ -29,7 +36,8 @@
     width: 35%;
     position: relative;
     background-color: slateblue;
-    top: 200;
+    top: -5px;
+    left: 270px
 }
 
 .button {
@@ -46,14 +54,19 @@
  }
 
  .page-links {
+     position: relative;
      background-color: slateblue;
-     width: 90%;
+     width: 43%;
+     top: -3px;
+     left: 120px;
 }
 
  .links-group {
     list-style-type: none;
     background-color: slateblue;
-    width: 50%;
+    width: 90%;
+    left: 105px;
+    position: relative;
  }
 
  .links-group a {
@@ -78,17 +91,33 @@
 }
 
 .left {
-    height: 100px;
+    height: 61px;
     width: 100px;
-    background-color: blue;
+    /*background-color: blue;*/
     position: relative;
     border: 1px solid black;
     margin: 10px 10px 10px 10px;
 }
 
+.left img {
+    width: 100%;
+    height: 100%;
+}
+
+.left p {
+    background-color: blanchedalmond;
+    width: 100px;
+}
+
 .lone {
-    top: 150;
-    left:10;
+    position: relative;
+    top: 150px;
+    left:10px;
+}
+
+.ltwo {
+    top: 80px;
+    left: 150px;
 }
 
 .right {
@@ -101,13 +130,15 @@
 }
 
 .rone {
-    top: 150;
-    left: 50;
+    top: 150px;
+    left: 150px;
+    background-color: green;
+    transform:rotate(45deg);
 }
 
 .rtwo {
-    top: 700;
-    left: 50;
+    top: 300px;
+    left: 50px;
 }
 
 .right-column {
